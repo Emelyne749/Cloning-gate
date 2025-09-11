@@ -9,22 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
   </head>
-  <body class="bg-gray-300">
+  <body class="bg-gray-100 text-gray-900 p-5">
     <!-- Navigation section -->
-     <div>
+    <div class="relative">
+     <div class="bg-[url('./img/penn-dental-cedar-2.jpeg')] bg-slate-600 h-[500px]"> 
         <!-- Top section -->
-        <div class="flex justify-between">
-          <div>
-            <img src="./img/Upennlogo.jpeg" alt="Upenn shield logo">
+     </div>
+     <div class=" absolute bg-gray-900 bg-opacity-40  inset-0">
+        <div class="flex justify-between p-5">
+          <div class="">
+            <img src="./img/upennlogo.png" alt="Upenn shield logo">
           </div>
-          <div>
-            <i class="fa-solid fa-magnifying-glass text-white"></i>
-            <a href="#">RESOURCES <i class="fa-solid fa-angle-down text-white"></i></a>
-            <a href="#">GIVE TO PENN</a>
+          <div class="text-white text-sm flex gap-5 mt-5">
+            <i class="fa-solid fa-magnifying-glass "></i>
+            <div class="flex gap-5">
+              <a href="#" class="">RESOURCES </a>
+              <i class="fa-solid fa-angle-down mt-1"></i>
+            </div>
+            <div>
+              <a href="#" class="bg-red-700 hover:bg-red-900 px-2 py-3">GIVE TO PENN</a>
+            </div>
           </div>
 
-        </div>
-     </div>
+        </div>        
+    </div>      
+    </div>
+     
     
 
     <script type="module" src="/src/main.js"></script>
