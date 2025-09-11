@@ -2,7 +2,17 @@
 export default {
   content: ["./index.html", "./scr**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: [
+          'Roboto',
+          'Helvetica',
+          'Arial',
+          'ui-sans-serif', 
+          'sans-serif',
+        ],
+      },
+    },
   },
   plugins: [],
 }
